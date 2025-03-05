@@ -5,7 +5,9 @@ import user3 from './../assets/review-profile-user/bobby.png'
 import user4 from './../assets/review-profile-user/mike.png'
 import user5 from './../assets/review-profile-user/reny.png'
 
-
+import yogurt_hero from '../assets/yogurt-hero.png';
+export { yogurt_hero };
+ 
 export  const navItems  = [
     { label: "Flavors", href: "#" },
     { label: "Shop", href: "#" },

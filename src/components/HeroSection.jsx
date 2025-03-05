@@ -1,3 +1,4 @@
+import { yogurt_hero } from "../constant";
 const HeroSection = () => {
     return (
       <div className="flex flex-col items-center mt-6 lg:mt-20">
@@ -23,7 +24,7 @@ const HeroSection = () => {
         </div>
         <div className="flex justify-center mt-10">
           <img
-            src="src/assets/yogurt-hero.png"
+            src={yogurt_hero}
             alt="Delicious Yogurt"
             className="rounded-lg w-8/5 border outline-2 outline-pink-300 shadow-lg "
           />
